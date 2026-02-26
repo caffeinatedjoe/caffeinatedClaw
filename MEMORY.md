@@ -13,3 +13,4 @@
 - Convert clean article text to TTS only after confirming body completeness.
 - Default audio mode for X articles is verbatim read (unless user asks for summary).
 - For long outputs, generate chunked audio only as an intermediate step, then rejoin and export one final compressed MP3 (podcast-friendly) before delivery.
+- Name final episode files with a content-relevant slug (e.g., `YYYY-MM-DD-apple-iphone-ai-transcription-tools.mp3`) instead of generic `part` names.

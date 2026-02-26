@@ -42,3 +42,20 @@ Use this workflow for reliable extraction.
 2. Rejoin chunks at the end into one master file.
 3. Export compressed podcast format as MP3 (single file), default 96 kbps mono.
 4. Deliver the combined MP3 as the primary output (parts are intermediate artifacts).
+
+## Episode filename convention (required)
+
+Use content-relevant slugs instead of generic names.
+
+Pattern:
+- `YYYY-MM-DD-<topic-slug>.mp3`
+
+Slug rules:
+- Derive from article headline/topic (not author name alone).
+- Lowercase letters, numbers, hyphens only.
+- Remove stopwords when possible; keep 4-8 meaningful tokens.
+- Keep under ~80 chars.
+
+Examples:
+- `2026-02-26-apple-iphone-ai-transcription-tools.mp3`
+- `2026-03-01-openai-agents-enterprise-adoption.mp3`
