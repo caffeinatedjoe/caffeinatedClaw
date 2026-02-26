@@ -54,6 +54,11 @@ Use script:
 - Input: raw cleaned article text on stdin
 - Output: TTS-ready spoken text on stdout
 
+## Voice default (required)
+
+- Default local voice: `vits-piper-en_US-hfc_male-medium` (hfc_male).
+- Use this as the standard voice unless the user explicitly asks for a different voice.
+
 ## Long-audio handling (required)
 
 1. If TTS text is too long for one pass, synthesize in sequential chunks (part1, part2, ...).

@@ -16,3 +16,4 @@
 - Name final episode files with a content-relevant slug (e.g., `YYYY-MM-DD-apple-iphone-ai-transcription-tools.mp3`) instead of generic `part` names.
 - For all future podcast RSS items, include the original source link in the episode description (`Source: <url>`).
 - Apply minimal spoken-word normalization before TTS: replace inline URLs with "source link in description", normalize currency/percent patterns, keep wording otherwise verbatim.
+- Default local TTS voice is now Piper `hfc_male` (`vits-piper-en_US-hfc_male-medium`).
