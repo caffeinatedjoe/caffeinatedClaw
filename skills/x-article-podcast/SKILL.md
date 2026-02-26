@@ -29,9 +29,16 @@ Use this workflow for reliable extraction.
 
 ## Output rules
 
-- Prefer exact article wording over paraphrase when user asks for podcast conversion.
+- Default to verbatim reading when user asks for article-to-podcast conversion (no summary unless requested).
 - If full text is incomplete, say so clearly before generating audio.
 - For podcast audio:
-  - Keep clean narrative flow.
-  - Remove nav/engagement noise.
+  - Keep original wording intact.
+  - Remove only platform UI/nav/engagement noise.
   - Preserve key steps/lists from the article.
+
+## Long-audio handling (required)
+
+1. If TTS text is too long for one pass, synthesize in sequential chunks (part1, part2, ...).
+2. Rejoin chunks at the end into one master file.
+3. Export compressed podcast format as MP3 (single file), default 96 kbps mono.
+4. Deliver the combined MP3 as the primary output (parts are intermediate artifacts).

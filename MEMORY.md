@@ -11,3 +11,5 @@
 - Clean out platform UI noise before narration (trending/sign-up/footer text).
 - If body text is inaccessible, check tweet metadata endpoint for article title/preview and state limitations explicitly.
 - Convert clean article text to TTS only after confirming body completeness.
+- Default audio mode for X articles is verbatim read (unless user asks for summary).
+- For long outputs, generate chunked audio only as an intermediate step, then rejoin and export one final compressed MP3 (podcast-friendly) before delivery.
