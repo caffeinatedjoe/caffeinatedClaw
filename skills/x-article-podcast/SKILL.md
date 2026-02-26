@@ -27,14 +27,22 @@ Use this workflow for reliable extraction.
 2. If an `article.rest_id` is present but body is unavailable, report that login/session access is required.
 3. If Chrome relay is requested, ensure tab is attached and retry extraction.
 
-## Output rules
+## Output mode rules
 
-- Default to verbatim reading when user asks for article-to-podcast conversion (no summary unless requested).
+- Default mode: verbatim reading when user asks for article-to-podcast conversion.
+- If user asks for a “podcast version” / conversational adaptation, use Podcastfy mode.
 - If full text is incomplete, say so clearly before generating audio.
-- For podcast audio:
-  - Keep original wording intact.
-  - Remove only platform UI/nav/engagement noise.
-  - Preserve key steps/lists from the article.
+
+### Verbatim mode
+- Keep original wording intact.
+- Remove only platform UI/nav/engagement noise.
+- Preserve key steps/lists from the article.
+
+### Podcastfy mode
+- Generate a conversational two-speaker transcript (minimum necessary rewriting for flow).
+- Keep factual fidelity to the source article.
+- Produce audio via Podcastfy (Edge TTS when API keys are unavailable).
+- Label episode title/description as `podcastfy edition`.
 
 ## Spoken-word normalization (minimal-edit, required)
 
