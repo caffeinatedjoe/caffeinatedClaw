@@ -14,3 +14,4 @@
 - Default audio mode for X articles is verbatim read (unless user asks for summary).
 - For long outputs, generate chunked audio only as an intermediate step, then rejoin and export one final compressed MP3 (podcast-friendly) before delivery.
 - Name final episode files with a content-relevant slug (e.g., `YYYY-MM-DD-apple-iphone-ai-transcription-tools.mp3`) instead of generic `part` names.
+- For all future podcast RSS items, include the original source link in the episode description (`Source: <url>`).

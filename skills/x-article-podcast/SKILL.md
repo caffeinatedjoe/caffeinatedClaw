@@ -59,3 +59,10 @@ Slug rules:
 Examples:
 - `2026-02-26-apple-iphone-ai-transcription-tools.mp3`
 - `2026-03-01-openai-agents-enterprise-adoption.mp3`
+
+## RSS description/source attribution (required)
+
+For every new episode item in `podcast.xml`:
+- Include the original source URL in `<description>`.
+- Format: short summary line + `Source: <url>`.
+- Use the exact link the user sent (or canonical X status URL if cleaned).
