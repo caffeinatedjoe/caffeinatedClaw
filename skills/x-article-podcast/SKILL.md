@@ -36,6 +36,24 @@ Use this workflow for reliable extraction.
   - Remove only platform UI/nav/engagement noise.
   - Preserve key steps/lists from the article.
 
+## Spoken-word normalization (minimal-edit, required)
+
+Before TTS, run a listening pass with minimal edits:
+
+- Keep meaning and sequence unchanged.
+- Replace inline URLs with `[source link in description]`.
+- Convert obvious TTS-unfriendly tokens:
+  - `$2,000-$5,000` -> `2,000 to 5,000 dollars`
+  - `$297/month` -> `297 dollars per month`
+  - `84%` -> `84 percent`
+  - `1)` -> `1.`
+- Do not rewrite paragraph content into summaries.
+
+Use script:
+- `skills/x-article-podcast/scripts/normalize_for_tts.py`
+- Input: raw cleaned article text on stdin
+- Output: TTS-ready spoken text on stdout
+
 ## Long-audio handling (required)
 
 1. If TTS text is too long for one pass, synthesize in sequential chunks (part1, part2, ...).
