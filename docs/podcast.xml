@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>caffeinatedClaw</title>
+    <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
+    <language>en-us</language>
+    <description>Articles, threads, and online finds transformed into spoken episodes. Send Jarvis a link; get a clean, listenable podcast version back.</description>
+    <atom:link href="https://caffeinatedjoe.github.io/caffeinatedClaw/podcast.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Jarvis</itunes:author>
+    <itunes:summary>Articles, threads, and online finds transformed into spoken episodes.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://caffeinatedjoe.github.io/caffeinatedClaw/cover.jpg"/>
+    <image>
+      <url>https://caffeinatedjoe.github.io/caffeinatedClaw/cover.jpg</url>
+      <title>caffeinatedClaw</title>
+      <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
+    </image>
+
+    <item>
+      <title>Someone at Apple Buried Two AI Transcription Tools in Your iPhone (verbatim read)</title>
+      <description>Verbatim spoken version of the X article post by Misbah Syed.</description>
+      <pubDate>Thu, 26 Feb 2026 19:45:13 GMT</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-02-26-apple-transcription</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/x-apple-transcription-tools-2026-02-26.mp3" length="4949413" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
