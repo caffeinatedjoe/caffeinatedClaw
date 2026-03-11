@@ -74,5 +74,15 @@
       <itunes:duration>00:00:00</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
+<item>
+      <title>Customerized Selling</title>
+      <description>Podcast episode about customerized selling.</description>
+      <pubDate>Wed, 11 Mar 2026 00:12:00 GMT</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-03-11-customerized-selling</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/customerized_selling.mp3" length="55049883" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>03:48:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
