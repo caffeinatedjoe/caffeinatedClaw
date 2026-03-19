@@ -74,4 +74,13 @@
       <itunes:duration>03:48:00</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
 </item>
+    <item>
+      <title>Spotting the Unseen: How Netflix’s Pixel‑Error AI Revolutionizes Video QC</title>
+      <description><![CDATA[Discover how Netflix engineers built a real‑time neural network that detects hot and dead pixels at full resolution, slashing manual review from hours to minutes and letting creators focus on storytelling.]]></description>
+      <pubDate>Thu, 19 Mar 2026 15:27:51 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/caffeinatedjoe/caffeinatedClaw/audio/2026-03-19_Spotting-the-Unseen-How-Netfli.mp3" length="14" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/caffeinatedjoe/caffeinatedClaw/audio/2026-03-19_Spotting-the-Unseen-How-Netfli.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
