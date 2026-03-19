@@ -92,4 +92,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>Beyond the P‑Value:How Netflix Builds Confidence in A/B Test Decisions</title>
+      <description><![CDATA[In this episode, Netflix engineers reveal the holistic framework they use to turn statistical results into confident product decisions—examining hypothesis alignment, metric storytelling, variant consistency, and the limits of p‑values.]]></description>
+      <pubDate>Thu, 19 Mar 2026 15:41:29 GMT</pubDate>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-19_Beyond-the-PValueHow-Netflix-B.mp3" length="162" type="audio/mpeg"/>
+      <guid>https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-19_Beyond-the-PValueHow-Netflix-B.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
