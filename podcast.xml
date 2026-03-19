@@ -83,4 +83,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>The Third Era ofAI Coding: Autonomous Agents Building Software Factories</title>
+      <description><![CDATA[Michael Truell explains how AI-assisted coding evolved from tab autocomplete to synchronous agents and now to autonomous cloud agents that handle large tasks independently, reshaping developer roles and Cursor's workflow.]]></description>
+      <pubDate>Thu, 19 Mar 2026 15:28:13 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/caffeinatedjoe/caffeinatedClaw/audio/2026-03-19_The-Third-Era-ofAI-Coding-Auto.mp3" length="14" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/caffeinatedjoe/caffeinatedClaw/audio/2026-03-19_The-Third-Era-ofAI-Coding-Auto.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
