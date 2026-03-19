@@ -93,4 +93,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>netflixtechblog.com - av1 now powering 30 of netflix streaming 02f592242</title>
+      <description><![CDATA[Generated from: https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80]]></description>
+      <pubDate>Thu, 19 Mar 2026 13:40:27 GMT</pubDate>
+      <enclosure url="https://raw.githubusercontent.com/caffeinatedjoe/caffeinatedClaw/main/podcast/audio/2026-03-19_netflixtechblogcom---av1-now-p.mp3" length="1015820" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/caffeinatedjoe/caffeinatedClaw/main/podcast/audio/2026-03-19_netflixtechblogcom---av1-now-p.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
