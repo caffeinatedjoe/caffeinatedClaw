@@ -110,4 +110,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>Running a 397B Mixture‑of‑Experts Model on a MacBook Pro: Apple’s LLM in a Flash Realized</title>
+      <description><![CDATA[Dan Woods shows how Claude Code autonomously engineered a local inference stack for Qwen 3.5 397B, streaming its 209 GB weights from SSD to achieve 5.7 tokens/sec with just 5.5 GB RAM, revealing how Apple’s unified memory and SSD bandwidth enable frontier‑scale AI on a laptop.]]></description>
+      <pubDate>Fri, 20 Mar 2026 14:18:00 GMT</pubDate>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_Running-a-397B-MixtureofExpert.mp3" length="162" type="audio/mpeg"/>
+      <guid>https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_Running-a-397B-MixtureofExpert.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
