@@ -137,4 +137,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>Inside Karpathy's Autoresearch: Building Reliable AI Agents Through Constrained Harnesses</title>
+      <description><![CDATA[Discover how Karpathy's tiny Autoresearch system turns AI research into a disciplined, time‑bounded optimization loop—and what it teaches us about designing robust agentic harnesses.]]></description>
+      <pubDate>Fri, 20 Mar 2026 14:45:07 GMT</pubDate>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_Inside-Karpathys-Autoresearch-.mp3" length="162" type="audio/mpeg"/>
+      <guid>https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_Inside-Karpathys-Autoresearch-.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
