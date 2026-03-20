@@ -128,4 +128,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>Taming Tail Latency: Netflix’s Journey with Generational ZGC</title>
+      <description><![CDATA[Discover how Netflix switched to Generational ZGC on JDK 21, slashing GC pause times to under a millisecond, cutting tail latency, and gaining operational simplicity without sacrificing throughput.]]></description>
+      <pubDate>Fri, 20 Mar 2026 14:30:44 GMT</pubDate>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_Taming-Tail-Latency-Netflixs-J.mp3" length="162" type="audio/mpeg"/>
+      <guid>https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_Taming-Tail-Latency-Netflixs-J.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
