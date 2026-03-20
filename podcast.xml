@@ -101,4 +101,13 @@
       <itunes:duration>0</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
+    <item>
+      <title>ModelOnce, Represent Everywhere: How Netflix’s UDA Connects Data Across Systems</title>
+      <description><![CDATA[Learn how Netflix’s Unified Data Architecture (UDA) uses a knowledge‑graph approach to define domain models once and automatically generate consistent schemas, pipelines, and discoverable data across GraphQL, Data Mesh, Iceberg, and more.]]></description>
+      <pubDate>Fri, 20 Mar 2026 13:47:53 GMT</pubDate>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_ModelOnce-Represent-Everywhere.mp3" length="162" type="audio/mpeg"/>
+      <guid>https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-03-20_ModelOnce-Represent-Everywhere.mp3</guid>
+      <itunes:duration>0</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
 </channel></rss>
