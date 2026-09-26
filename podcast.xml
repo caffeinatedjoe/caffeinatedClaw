@@ -24,7 +24,18 @@
     
     
     
-                            <item>
+                                <item>
+      <title>Why AI is booming, but productivity isn't</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://x.com/chamath/status/2103546630192685350</description>
+      <pubDate>Sat, 26 Sep 2026 04:00:54 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-26-why-ai-is-booming-but-productivity-isn-t-2772c0d4</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-26-why-ai-is-booming-but-productivity-isn-t.mp3" length="18275618" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>20:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Building a Harness with Jev</title>
       <description>NotebookLM Audio Overview of Sydney Runkle's X article on Jev (TypeSafe System One model) and LangChain. Source text extracted from X (NotebookLM cannot open X natively). Source: https://x.com/sydneyrunkle/status/2100754364545761643</description>
       <pubDate>Sun, 20 Sep 2026 03:30:49 +0000</pubDate>
