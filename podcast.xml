@@ -24,7 +24,18 @@
     
     
     
-                                                    <item>
+                                                        <item>
+      <title>Why Software Factories Fail — Dex Horthy (HumanLayer)</title>
+      <description>Original talk audio extracted from YouTube (not NotebookLM). Dex Horthy (HumanLayer) on why software factories fail. Source: https://www.youtube.com/watch?v=Ib5GBkD555M</description>
+      <pubDate>Mon, 28 Sep 2026 23:39:15 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-28-why-software-factories-fail-dex-horthy-humanlayer-be0552ae</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-why-software-factories-fail-dex-horthy-humanlayer.mp3" length="17889500" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>19:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Inside OpenAI’s Agentic Software Factory — The Pragmatic Engineer</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://newsletter.pragmaticengineer.com/p/openai-software-factory</description>
       <pubDate>Mon, 28 Sep 2026 23:38:45 +0000</pubDate>
