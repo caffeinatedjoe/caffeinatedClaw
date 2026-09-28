@@ -24,7 +24,18 @@
     
     
     
-                                    <item>
+                                        <item>
+      <title>NotebookLM episode 20260928T220527Z</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/</description>
+      <pubDate>Mon, 28 Sep 2026 22:13:49 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-28-notebooklm-episode-20260928t220527z-abe02c9b</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-notebooklm-episode-20260928t220527z.mp3" length="19612274" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>22:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>2026 in LLMs (so far) — Simon Willison</title>
       <description>Original talk audio from Simon Willison's closing keynote at WeAreDevelopers World Congress North America (San Jose). Not a NotebookLM overview — this is the unmodified talk audio extracted from the publicly linked YouTube recording (https://www.youtube.com/watch?v=GAkIytR7vcc). Source: https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/</description>
       <pubDate>Mon, 28 Sep 2026 22:07:51 +0000</pubDate>
