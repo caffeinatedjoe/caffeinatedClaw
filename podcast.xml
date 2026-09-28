@@ -24,7 +24,17 @@
     
     
     
-                                            <item>
+                                                <item>
+      <title>AI Skills with Matt Pocock — The Pragmatic Engineer</title>
+      <description>Original Pragmatic Engineer podcast episode with Matt Pocock (native Substack audio, not NotebookLM). Matt explains how he uses AI coding skills and agents to plan and build software, and why engineering fundamentals matter more than ever. Source: https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock</description>
+      <pubDate>Mon, 28 Sep 2026 23:28:50 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-28-ai-skills-with-matt-pocock-the-pragmatic-engineer-d4ed5b41</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-ai-skills-with-matt-pocock-the-pragmatic-engineer.mp3" length="74530003" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>01:35:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+<item>
       <title>Brownfield Agentic Engineering — Addy Osmani</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://addyosmani.com/blog/brownfield-agentic-engineering/</description>
       <pubDate>Mon, 28 Sep 2026 23:26:00 +0000</pubDate>
