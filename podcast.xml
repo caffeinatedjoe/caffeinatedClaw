@@ -24,7 +24,18 @@
     
     
     
-                                <item>
+                                    <item>
+      <title>2026 in LLMs (so far) — Simon Willison</title>
+      <description>Original talk audio from Simon Willison's closing keynote at WeAreDevelopers World Congress North America (San Jose). Not a NotebookLM overview — this is the unmodified talk audio extracted from the publicly linked YouTube recording (https://www.youtube.com/watch?v=GAkIytR7vcc). Source: https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/</description>
+      <pubDate>Mon, 28 Sep 2026 22:07:51 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-28-2026-in-llms-so-far-simon-willison-9846d869</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-2026-in-llms-so-far-simon-willison.mp3" length="29484037" type="audio/mpeg"/>
+      <itunes:author>Jarvis</itunes:author>
+      <itunes:duration>32:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Why AI is booming, but productivity isn't</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://x.com/chamath/status/2103546630192685350</description>
       <pubDate>Sat, 26 Sep 2026 04:00:54 +0000</pubDate>
