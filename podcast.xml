@@ -4,19 +4,19 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>caffeinatedClaw</title>
+    <title>Hermes Signal</title>
     <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     <language>en-us</language>
-    <description>Articles, threads, and online finds transformed into spoken episodes. Send Jarvis a link; get a clean, listenable podcast version back.</description>
+    <description>High-authority deep dives on AI agents changing engineering and business process — practitioner talks, failure modes, and how-to writeups, spoken. Curated by Hermes; overviews via NotebookLM plus original talk audio.</description>
     <atom:link href="https://caffeinatedjoe.github.io/caffeinatedClaw/podcast.xml" rel="self" type="application/rss+xml" />
-    <itunes:author>Jarvis</itunes:author>
-    <itunes:summary>Articles, threads, and online finds transformed into spoken episodes.</itunes:summary>
+    <itunes:author>Hermes</itunes:author>
+    <itunes:summary>Agent process deep dives — practices, factories, and failure modes that compound.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://caffeinatedjoe.github.io/caffeinatedClaw/cover.jpg"/>
     <image>
       <url>https://caffeinatedjoe.github.io/caffeinatedClaw/cover.jpg</url>
-      <title>caffeinatedClaw</title>
+      <title>Hermes Signal</title>
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
@@ -30,7 +30,7 @@
       <pubDate>Tue, 29 Sep 2026 00:02:24 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-29-how-i-actually-do-agentic-engineering-hamy-9f9c53fe</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-29-how-i-actually-do-agentic-engineering-hamy.mp3" length="18651982" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>21:30</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -41,7 +41,7 @@
       <pubDate>Mon, 28 Sep 2026 23:53:17 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-dark-factory-for-code-software-factory-architecture-ai-nativ-deafd875</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-dark-factory-for-code-software-factory-architecture-ai-nativ.mp3" length="21140588" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>24:26</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -52,7 +52,7 @@
       <pubDate>Mon, 28 Sep 2026 23:39:15 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-why-software-factories-fail-dex-horthy-humanlayer-be0552ae</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-why-software-factories-fail-dex-horthy-humanlayer.mp3" length="17889500" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>19:17</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -63,7 +63,7 @@
       <pubDate>Mon, 28 Sep 2026 23:38:45 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-inside-openai-s-agentic-software-factory-the-pragmatic-engin-e7c2e0f8</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-inside-openai-s-agentic-software-factory-the-pragmatic-engin.mp3" length="18597506" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>21:13</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -74,7 +74,7 @@
       <pubDate>Mon, 28 Sep 2026 23:28:50 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-ai-skills-with-matt-pocock-the-pragmatic-engineer-d4ed5b41</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-ai-skills-with-matt-pocock-the-pragmatic-engineer.mp3" length="74530003" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>01:35:31</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -84,7 +84,7 @@
       <pubDate>Mon, 28 Sep 2026 23:26:00 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-brownfield-agentic-engineering-addy-osmani-4097e8d9</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-brownfield-agentic-engineering-addy-osmani.mp3" length="21295535" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>24:26</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -95,7 +95,7 @@
       <pubDate>Mon, 28 Sep 2026 22:13:49 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-notebooklm-episode-20260928t220527z-abe02c9b</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-notebooklm-episode-20260928t220527z.mp3" length="19612274" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>22:08</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -106,7 +106,7 @@
       <pubDate>Mon, 28 Sep 2026 22:07:51 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-28-2026-in-llms-so-far-simon-willison-9846d869</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-28-2026-in-llms-so-far-simon-willison.mp3" length="29484037" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>32:06</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -117,7 +117,7 @@
       <pubDate>Sat, 26 Sep 2026 04:00:54 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-26-why-ai-is-booming-but-productivity-isn-t-2772c0d4</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-26-why-ai-is-booming-but-productivity-isn-t.mp3" length="18275618" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>20:58</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -128,7 +128,7 @@
       <pubDate>Sun, 20 Sep 2026 03:30:49 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-20-building-a-harness-with-jev-dcf20c19</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-20-building-a-harness-with-jev.mp3" length="21661679" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>25:09</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -139,7 +139,7 @@
       <pubDate>Fri, 18 Sep 2026 05:16:40 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-18-why-cross-the-ocean-why-people-came-to-america-for-kids-5679c298</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-18-why-cross-the-ocean-why-people-came-to-america-for-kids.mp3" length="3715622" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>04:18</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -151,7 +151,7 @@
       <pubDate>Thu, 17 Sep 2026 23:02:46 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-17-i-manually-studied-30-600-ios-apps-making-20k-100k-mo-the-re-28dada41</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-17-i-manually-studied-30-600-ios-apps-making-20k-100k-mo-the-re.mp3" length="18943869" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>21:50</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -162,7 +162,7 @@
       <pubDate>Thu, 17 Sep 2026 15:25:49 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-17-grok-bot-galaxy-ship-by-thursday-livestream-recap-a0bcb2e9</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-17-grok-bot-galaxy-ship-by-thursday-livestream-recap.mp3" length="15304508" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>17:42</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -173,7 +173,7 @@
       <pubDate>Thu, 17 Sep 2026 04:07:05 +0000</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-09-17-how-to-articulate-yourself-intelligently-4d574aa5</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-17-how-to-articulate-yourself-intelligently.mp3" length="18002036" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>21:04</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -184,7 +184,7 @@
       <pubDate>Thu, 26 Feb 2026 22:07:01 GMT</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-02-26-world-order-dalio-podcastfy</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-02-26-world-order-broken-down-podcastfy.mp3" length="684429" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>00:00:00</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -194,7 +194,7 @@
       <pubDate>Thu, 26 Feb 2026 20:48:08 GMT</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-02-26-world-order-dalio</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-02-26-world-order-has-broken-down-dalio.mp3" length="5207398" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>00:07:14</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -204,7 +204,7 @@
       <pubDate>Thu, 26 Feb 2026 20:38:34 GMT</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-02-26-cost-of-staying</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-02-26-cost-of-staying-tech-career-k-curve.mp3" length="5728384" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>00:07:57</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -214,7 +214,7 @@
       <pubDate>Thu, 26 Feb 2026 19:45:13 GMT</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-02-26-apple-transcription</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-02-26-apple-iphone-ai-transcription-tools.mp3" length="4949413" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>00:00:00</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
@@ -224,7 +224,7 @@
       <pubDate>Wed, 11 Mar 2026 00:12:00 GMT</pubDate>
       <guid isPermaLink="false">caffeinatedclaw-2026-03-11-customerized-selling</guid>
       <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/customerized_selling.mp3" length="55049883" type="audio/mpeg"/>
-      <itunes:author>Jarvis</itunes:author>
+      <itunes:author>Hermes</itunes:author>
       <itunes:duration>03:48:00</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
 </item>
