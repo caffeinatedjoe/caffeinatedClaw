@@ -24,7 +24,18 @@
     
     
     
-                                                                            <item>
+                                                                                <item>
+      <title>Write Things Down — Stratechery</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://stratechery.com/2026/write-things-down/</description>
+      <pubDate>Tue, 29 Sep 2026 13:52:56 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-29-write-things-down-stratechery-84f673d6</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-29-write-things-down-stratechery.mp3" length="24956193" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>28:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Building Codex with Tibo Sottiaux — The Pragmatic Engineer</title>
       <description>Original Pragmatic Engineer podcast episode with Tibo Sottiaux (native Substack audio, not NotebookLM; 48kbps mono encode for GitHub Contents API size limit). Building Codex at OpenAI. Source audio: PE_TiboSottiaux_v2.mp3. Source: https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux</description>
       <pubDate>Tue, 29 Sep 2026 13:41:33 +0000</pubDate>
