@@ -24,7 +24,18 @@
     
     
     
-                                                                    <item>
+                                                                        <item>
+      <title>Factory’s Matan Grinberg: The Coming Dark Factory — Sequoia Training Data</title>
+      <description>Original Sequoia Training Data podcast audio with Factory CEO Matan Grinberg (extracted from YouTube embed, not NotebookLM; 64kbps encode for GitHub Contents API size limit). Matan on open-weight models, token economics, and the coming dark factory where software builds itself. Source: https://sequoiacap.com/podcast/factorys-matan-grinberg-the-coming-dark-factory-where-software-builds-itself/</description>
+      <pubDate>Tue, 29 Sep 2026 13:39:39 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-09-29-factory-s-matan-grinberg-the-coming-dark-factory-sequoia-tra-05286ddf</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-09-29-factory-s-matan-grinberg-the-coming-dark-factory-sequoia-tra.mp3" length="24728492" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>51:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Goal-Driven Engineering: The Software Factory Nobody Has to Ask</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://ainativesoftware.engineering/goal-driven-engineering</description>
       <pubDate>Tue, 29 Sep 2026 13:37:05 +0000</pubDate>
