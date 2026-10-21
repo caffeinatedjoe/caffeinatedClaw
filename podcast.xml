@@ -25,6 +25,16 @@
     
     
                                                                                                                                     <item>
+      <title>AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC (Latent Space)</title>
+      <description>Full Latent Space interview with Alex Lieberman and CJ Hess of Tenex, recorded at AI Engineer New York and posted October 21, 2026. They walk through how their 75-person delivery org runs an AI-native SDLC: MetaHarness, which checks plans, acceptance criteria and decisions into Git next to the code so agents can see why something was built; paying engineers on output (story points) instead of hours; and the failure modes, including point inflation, unrewarded context and architecture work, and why the structure is overkill for small teams. Original episode audio from Latent Space. Source: https://www.latent.space/p/tenex</description>
+      <pubDate>Wed, 21 Oct 2026 12:57:46 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-10-21-latent-space-tenex-ai-native-sdlc-2ffd84b8</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-10-21-latent-space-tenex-ai-native-sdlc.mp3" length="31352101" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>00:43:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>SpaceX Q3 2026 Earnings Call</title>
       <description>Full audio of SpaceX's third-quarter 2026 earnings webcast, held October 20, 2026 at 4:30 p.m. ET, with Elon Musk, Gwynne Shotwell, CFO Bret Johnsen and IR head Andrea Williams. Reported Q3 revenue of $14.6B (up 161% YoY), net income of $4.4B and adjusted EBITDA of $8.8B; covers Starship Flights 14 and 15, Starlink V3, the Super Intelligence compute business, capex and guidance, analyst Q&amp;A and investor questions. Audio taken from the official @SpaceX livestream replay on X; pre-show holding music trimmed. Source: https://x.com/i/broadcasts/1PKqrNbLZbPGb</description>
       <pubDate>Wed, 21 Oct 2026 02:13:30 +0000</pubDate>
