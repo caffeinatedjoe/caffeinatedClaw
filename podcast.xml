@@ -24,7 +24,18 @@
     
     
     
-                                                                                                                                    <item>
+                                                                                                                                        <item>
+      <title>Tesla Q3 2026 Earnings Call</title>
+      <description>Full audio of Tesla's third-quarter 2026 financial results and Q&amp;A webcast, held October 21, 2026 at 2:30 p.m. PT, hosted by IR head Travis Axelrod with Elon Musk, CFO Vaibhav Taneja and other executives. Reported Q3 revenue of $28.05B, adjusted EPS of $0.48, GAAP net income of $0.8B, operating cash flow of $6.3B and free cash flow of $1.5B; covers the 10 millionth vehicle, Cybercab joining the Austin Robotaxi fleet, FSD, Optimus production, capex, the possible SpaceX merger and analyst Q&amp;A. Audio taken from the official @tesla YouTube livestream replay; pre-show holding music and outro trimmed. Source: https://www.youtube.com/watch?v=tFezqXBF-gw (also https://ir.tesla.com)</description>
+      <pubDate>Wed, 21 Oct 2026 22:42:22 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-10-21-tesla-q3-2026-earnings-call-edd4f762</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-10-21-tesla-q3-2026-earnings-call.mp3" length="42666731" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>59:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC (Latent Space)</title>
       <description>Full Latent Space interview with Alex Lieberman and CJ Hess of Tenex, recorded at AI Engineer New York and posted October 21, 2026. They walk through how their 75-person delivery org runs an AI-native SDLC: MetaHarness, which checks plans, acceptance criteria and decisions into Git next to the code so agents can see why something was built; paying engineers on output (story points) instead of hours; and the failure modes, including point inflation, unrewarded context and architecture work, and why the structure is overkill for small teams. Original episode audio from Latent Space. Source: https://www.latent.space/p/tenex</description>
       <pubDate>Wed, 21 Oct 2026 12:57:46 +0000</pubDate>
