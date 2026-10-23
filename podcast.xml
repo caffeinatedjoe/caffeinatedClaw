@@ -24,7 +24,18 @@
     
     
     
-                                                                                                                                            <item>
+                                                                                                                                                <item>
+      <title>Tobi Lütke on dquickts: A Durable Code Mode Environment for Agents</title>
+      <description>Tobi Lütke points to dquickts, a QuickJS fork that can pause running TypeScript, snapshot the whole heap, and resume it in another process, as an excellent "code mode" environment for agents. Short explainer covering his earlier argument that MCP vs CLI is the wrong debate, what durable execution means for agent harnesses (long-running workflows, late human approvals, warm starts), and the limits. NotebookLM Audio Overview built from the post, the quoted post, and the dquickts README; also: https://github.com/stencil-hq/dquickts Source: https://x.com/tobi/status/2113596638899974567</description>
+      <pubDate>Fri, 23 Oct 2026 20:09:11 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-10-23-tobi-l-tke-on-dquickts-a-durable-code-mode-environment-for-a-b12ac940</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-10-23-tobi-l-tke-on-dquickts-a-durable-code-mode-environment-for-a.mp3" length="4781888" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>05:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Claude Mods: Flipping the Harness Inside Out — Dan McAteer (Latent Space)</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://www.latent.space/p/claude-mods</description>
       <pubDate>Thu, 22 Oct 2026 13:11:48 +0000</pubDate>
