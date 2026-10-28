@@ -6,7 +6,9 @@ Reads the same public data the Subsplash series page loads in the browser. The
 page hands every anonymous visitor a short-lived guest token; this script reads
 it from the page at run time, keeps it in memory only, and never writes or
 prints it. No audio is copied: enclosures point at the church's CDN files.
-Video-only items are skipped. Output is deterministic, so re-running with no
+Audio is used whenever it exists; an item with
+no audio falls back to its progressive MP4 video file (never HLS). Items with
+neither are skipped. Output is deterministic, so re-running with no
 upstream changes leaves the file byte-identical.
 
 Usage: python3 genesis/build_feed.py   (writes podcast.xml next to this file)
@@ -43,7 +45,7 @@ def fetch_items(auth):
         url = ("https://core.subsplash.com/media/v1/media-items"
                f"?filter%5Bmedia_series%5D={SERIES_ID}&filter%5Bstatus%5D=published"
                f"&page%5Bsize%5D=100&page%5Bnumber%5D={page}&sort=position"
-               "&include=audio,audio.audio-outputs,video")
+               "&include=audio,audio.audio-outputs,video,video.video-outputs")
         d = json.loads(get(url, auth))
         batch = d.get("_embedded", {}).get("media-items", [])
         items += batch
@@ -61,14 +63,21 @@ def build(items):
     items = sorted(items, key=lambda i: (i["date"], i["position"]))
     eps, skipped = [], []
     for i in items:
-        outs = ((i.get("_embedded", {}).get("audio") or {}).get("_embedded", {}).get("audio-outputs") or [])
-        if not outs:
-            skipped.append(i)
+        emb = i.get("_embedded", {})
+        outs = (emb.get("audio") or {}).get("_embedded", {}).get("audio-outputs") or []
+        if outs:
+            eps.append((i, outs[0], "audio/mpeg"))
             continue
-        eps.append((i, outs[0]))
+        vids = [v for v in (emb.get("video") or {}).get("_embedded", {}).get("video-outputs") or []
+                if v.get("content_type") == "video/mp4"
+                and v.get("_links", {}).get("related", {}).get("href", "").endswith(".mp4")]
+        if vids:
+            eps.append((i, max(vids, key=lambda v: v.get("height", 0)), "video/mp4"))
+        else:
+            skipped.append(i)
 
     xml_items = []
-    for n, (i, a) in enumerate(eps, 1):
+    for n, (i, a, mime) in enumerate(eps, 1):
         d = datetime.strptime(i["date"][:10], "%Y-%m-%d")
         # The date Subsplash shows, pinned to 18:00 UTC so it reads as the same day in US time zones.
         pub = d.strftime("%a, %d %b %Y 18:00:00 +0000")
@@ -76,6 +85,8 @@ def build(items):
         scripture = i.get("subtitle") or ""
         speaker = i.get("speaker") or "Cornerstone Bible Church"
         desc = " | ".join(x for x in [scripture, speaker, d.strftime("%B %-d, %Y")] if x)
+        if mime.startswith("video/"):
+            desc += "\n\nVideo only: the church posted no audio file for this sermon."
         desc += f"\n\nCornerstone Bible Church, Albany, OR. Sermon page: {link}"
         url = a["_links"]["related"]["href"]
         xml_items.append(f"""    <item>
@@ -84,7 +95,7 @@ def build(items):
       <link>{escape(link)}</link>
       <guid isPermaLink="false">subsplash-{i['id']}</guid>
       <pubDate>{pub}</pubDate>
-      <enclosure url="{escape(url)}" length="{a.get('file_size', 0)}" type="audio/mpeg"/>
+      <enclosure url="{escape(url)}" length="{a.get('file_size', 0)}" type="{mime}"/>
       <itunes:title>{escape(i['title'])}</itunes:title>
       <itunes:author>{escape(speaker)}</itunes:author>
       <itunes:subtitle>{escape(scripture)}</itunes:subtitle>
@@ -129,9 +140,12 @@ def main():
     old = OUT.read_text() if OUT.exists() else None
     if old != channel:
         OUT.write_text(channel)
-    print(f"episodes={len(eps)} skipped_video_only={len(skipped)} changed={old != channel}")
+    vid = [e[0] for e in eps if e[2] != "audio/mpeg"]
+    print(f"episodes={len(eps)} video_fallback={len(vid)} skipped={len(skipped)} changed={old != channel}")
+    for i in vid:
+        print(f"  video (no audio): {i['date'][:10]} {i['title']} https://subspla.sh/{i['short_code']}")
     for i in skipped:
-        print(f"  skipped (no audio): {i['date'][:10]} {i['title']} https://subspla.sh/{i['short_code']}")
+        print(f"  skipped (no audio or mp4): {i['date'][:10]} {i['title']} https://subspla.sh/{i['short_code']}")
     if eps:
         f, l = eps[0][0], eps[-1][0]
         print(f"  first: {f['date'][:10]} {f['title']}\n  last:  {l['date'][:10]} {l['title']}")
