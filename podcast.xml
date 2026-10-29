@@ -24,7 +24,18 @@
     
     
     
-                                                                                                                                                <item>
+                                                                                                                                                    <item>
+      <title>How I Built the Most AI-Pilled Company in the World</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://x.com/jsnnsa/status/2115623382721126826</description>
+      <pubDate>Thu, 29 Oct 2026 15:46:11 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-10-29-how-i-built-the-most-ai-pilled-company-in-the-world-8c07a617</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-10-29-how-i-built-the-most-ai-pilled-company-in-the-world.mp3" length="18213409" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>21:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Tobi Lütke on dquickts: A Durable Code Mode Environment for Agents</title>
       <description>Tobi Lütke points to dquickts, a QuickJS fork that can pause running TypeScript, snapshot the whole heap, and resume it in another process, as an excellent "code mode" environment for agents. Short explainer covering his earlier argument that MCP vs CLI is the wrong debate, what durable execution means for agent harnesses (long-running workflows, late human approvals, warm starts), and the limits. NotebookLM Audio Overview built from the post, the quoted post, and the dquickts README; also: https://github.com/stencil-hq/dquickts Source: https://x.com/tobi/status/2113596638899974567</description>
       <pubDate>Fri, 23 Oct 2026 20:09:11 +0000</pubDate>
