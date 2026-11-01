@@ -20,6 +20,17 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
+    <item>
+      <title>Agents Prompt People: Long-Horizon Financial Work at Arca (Latent Space)</title>
+      <description>Original Latent Space episode (Oct 31, 2026). Aman Singh, lead AI engineer at Arca, on running agent tasks that last up to 10 days: per-client memory, deterministic safety limits, humans always own money movement, and a meta-agent that improves the harness from advisor feedback. Source: https://latent.space/p/arca/ Source: https://latent.space/p/arca/</description>
+      <pubDate>Sun, 01 Nov 2026 13:59:12 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-01-agents-prompt-people-long-horizon-financial-work-at-arca-lat-33eae21b</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-01-agents-prompt-people-long-horizon-financial-work-at-arca-lat.mp3" length="25208283" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>26:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
 <item>
       <title>How I Built the Most AI-Pilled Company in the World</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://x.com/jsnnsa/status/2115623382721126826</description>
