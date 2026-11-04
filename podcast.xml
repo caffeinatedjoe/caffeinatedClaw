@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-        <item>
+            <item>
+      <title>How Software Engineering Is Changing: A Tale of Two Eras (Pragmatic Engineer)</title>
+      <description>NotebookLM Audio Overview of Neil Kakkar's winning essay in The Pragmatic Engineer (Nov 3, 2026), built from the full article text. Source: https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing</description>
+      <pubDate>Wed, 04 Nov 2026 14:28:02 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-04-how-software-engineering-is-changing-a-tale-of-two-eras-prag-60f5e8b0</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-04-how-software-engineering-is-changing-a-tale-of-two-eras-prag.mp3" length="18084885" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>21:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Building Legal Agents When You Can't See the Data: Legora's Jacob Lauritzen (Latent Space)</title>
       <description>Original Latent Space episode (Nov 2, 2026). Jacob Lauritzen, CTO of Legora, on building legal AI agents when client data rules mean you can't read the traces: three engineers and three lawyers rebuild customer work as simulated test environments (including a 10,000-file data room), how legal engineers and forward-deployed engineers split the work, and how a 20-engineer plan grew to 100. Source: https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/</description>
       <pubDate>Tue, 03 Nov 2026 13:57:35 +0000</pubDate>
