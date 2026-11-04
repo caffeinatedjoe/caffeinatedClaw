@@ -1466,7 +1466,7 @@ Cornerstone Bible Church, Albany, OR. Sermon page: https://subspla.sh/tt8fqrq</i
     </item>
     <item>
       <title>Jacob Returns to Bethel</title>
-      <description>Jake Liedkie | October 18, 2026
+      <description>Gen 35:1-15 | Jake Liedkie | October 18, 2026
 
 Cornerstone Bible Church, Albany, OR. Sermon page: https://subspla.sh/536bfw7</description>
       <link>https://subspla.sh/536bfw7</link>
@@ -1475,12 +1475,32 @@ Cornerstone Bible Church, Albany, OR. Sermon page: https://subspla.sh/536bfw7</d
       <enclosure url="https://cdn.subsplash.com/audios/H563TB/b87a1df8-a98b-4a2e-8c75-ca4bd1c4f840/audio.mp3" length="39190187" type="audio/mpeg"/>
       <itunes:title>Jacob Returns to Bethel</itunes:title>
       <itunes:author>Jake Liedkie</itunes:author>
-      <itunes:subtitle></itunes:subtitle>
-      <itunes:summary>Jake Liedkie | October 18, 2026
+      <itunes:subtitle>Gen 35:1-15</itunes:subtitle>
+      <itunes:summary>Gen 35:1-15 | Jake Liedkie | October 18, 2026
 
 Cornerstone Bible Church, Albany, OR. Sermon page: https://subspla.sh/536bfw7</itunes:summary>
       <itunes:duration>0:40:49</itunes:duration>
       <itunes:episode>73</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Grace Amid Sorrow and Sin</title>
+      <description>Gen 35:16-29 | Jake Liedkie | November 1, 2026
+
+Cornerstone Bible Church, Albany, OR. Sermon page: https://subspla.sh/6m8hmwk</description>
+      <link>https://subspla.sh/6m8hmwk</link>
+      <guid isPermaLink="false">subsplash-a15c1bcd-0a12-4539-b910-c8791108b3dd</guid>
+      <pubDate>Sun, 01 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://cdn.subsplash.com/audios/H563TB/1780c523-31e3-41aa-a430-d3e7b1e77258/audio.mp3" length="41280819" type="audio/mpeg"/>
+      <itunes:title>Grace Amid Sorrow and Sin</itunes:title>
+      <itunes:author>Jake Liedkie</itunes:author>
+      <itunes:subtitle>Gen 35:16-29</itunes:subtitle>
+      <itunes:summary>Gen 35:16-29 | Jake Liedkie | November 1, 2026
+
+Cornerstone Bible Church, Albany, OR. Sermon page: https://subspla.sh/6m8hmwk</itunes:summary>
+      <itunes:duration>0:43:00</itunes:duration>
+      <itunes:episode>74</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
