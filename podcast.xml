@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                <item>
+                    <item>
+      <title>AI SRE: what is it, how could it change on-call – and does it work? (Pragmatic Engineer)</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://newsletter.pragmaticengineer.com/p/ai-sre</description>
+      <pubDate>Fri, 06 Nov 2026 14:18:19 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-06-ai-sre-what-is-it-how-could-it-change-on-call-and-does-it-wo-9ac91106</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-06-ai-sre-what-is-it-how-could-it-change-on-call-and-does-it-wo.mp3" length="20553377" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>24:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>What Karl Marx Would Say About My Coding Agents (Every)</title>
       <description>NotebookLM Audio Overview of Loren Stewart's Every (Source Code) essay. Full article text pasted from the Wayback Machine copy (Every is paywalled). Source: https://every.to/source-code/what-karl-marx-would-say-about-my-coding-agents</description>
       <pubDate>Thu, 05 Nov 2026 14:13:20 +0000</pubDate>
