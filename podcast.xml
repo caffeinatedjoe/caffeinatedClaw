@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                        <item>
+                            <item>
+      <title>How Stanford Teaches AI-Native Engineering: Mihail Eric of Monaco (Latent Space)</title>
+      <description>Original Latent Space episode (Nov 8, 2026). Mihail Eric, head of AI at Monaco and Stanford CS146S instructor, on AI-native engineering: buy to learn / build to keep, agent-ready codebases, code review becoming the bottleneck (PRs +98%, review time +91%), and writing PR descriptions as specs. Native episode audio, re-encoded at 64kbps for GitHub size limits. Source: https://latent.space/p/cs146s</description>
+      <pubDate>Mon, 09 Nov 2026 14:07:20 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-09-how-stanford-teaches-ai-native-engineering-mihail-eric-of-mo-5c20607c</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-09-how-stanford-teaches-ai-native-engineering-mihail-eric-of-mo.mp3" length="57958331" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>02:00:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Why We Replaced Personal Agents With One for the Whole Company (Every)</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://every.to/source-code/why-we-replaced-personal-agents-with-one-for-the-whole-company</description>
       <pubDate>Fri, 06 Nov 2026 14:35:55 +0000</pubDate>
