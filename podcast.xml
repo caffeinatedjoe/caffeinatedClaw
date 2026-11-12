@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                            <item>
+                                <item>
+      <title>the answer to ai is engineering — Geoffrey Huntley</title>
+      <description>Original talk audio from Geoffrey Huntley's AI DevCon New York talk. Huntley on security take-off as the new normal, patching the planet with a Nix overlay as one source of truth, removing force-push instead of prompting around it, a timed reminder in AGENTS.md, and property-based tests as back pressure on agent loops. Not a NotebookLM overview — this is the unmodified talk audio extracted from the publicly linked YouTube recording (https://www.youtube.com/watch?v=TgwcuZViDo8). Source: https://ghuntley.com/answer/</description>
+      <pubDate>Thu, 12 Nov 2026 13:58:00 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-12-the-answer-to-ai-is-engineering-geoffrey-huntley-c4e5c9cf</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-12-the-answer-to-ai-is-engineering-geoffrey-huntley.mp3" length="28972844" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>30:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>How Stanford Teaches AI-Native Engineering: Mihail Eric of Monaco (Latent Space)</title>
       <description>Original Latent Space episode (Nov 8, 2026). Mihail Eric, head of AI at Monaco and Stanford CS146S instructor, on AI-native engineering: buy to learn / build to keep, agent-ready codebases, code review becoming the bottleneck (PRs +98%, review time +91%), and writing PR descriptions as specs. Native episode audio, re-encoded at 64kbps for GitHub size limits. Source: https://latent.space/p/cs146s</description>
       <pubDate>Mon, 09 Nov 2026 14:07:20 +0000</pubDate>
