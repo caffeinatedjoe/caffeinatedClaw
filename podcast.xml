@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                                        <item>
+                                            <item>
+      <title>Software engineering after code becomes cheap with Satya Nadella (Pragmatic Engineer)</title>
+      <description>Original Pragmatic Engineer interview with Satya Nadella (Nov 16, 2026). Microsoft's CEO on software factories, treating agents as an insider risk, keeping the harness, memory and model separate, and why verification is still unsolved when agents delete failing tests. Official podcast audio, re-encoded at 64kbps for GitHub size limits. Source: https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes</description>
+      <pubDate>Mon, 16 Nov 2026 13:57:06 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nad-dceea4e7</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-16-software-engineering-after-code-becomes-cheap-with-satya-nad.mp3" length="30080147" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>01:02:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>AI Ambition: ArtCraft Cloned Photoshop and Now Wants to "Rebuild Everything" (Latent Space)</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://latent.space/p/artcraft</description>
       <pubDate>Sat, 14 Nov 2026 14:09:19 +0000</pubDate>
