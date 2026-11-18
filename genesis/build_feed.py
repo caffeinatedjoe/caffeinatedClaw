@@ -2,10 +2,14 @@
 """Rebuild genesis/podcast.xml: a pointer-only audio feed for Cornerstone Bible
 Church's "Genesis" sermon series on Subsplash.
 
-Reads the same public data the Subsplash series page loads in the browser. The
-page hands every anonymous visitor a short-lived guest token; this script reads
-it from the page at run time, keeps it in memory only, and never writes or
-prints it. No audio is copied: enclosures point at the church's CDN files.
+Reads the same public data the Subsplash series page loads in the browser.
+Since Nov 2026 the page is a JavaScript "web shell" that sends its API calls
+through Subsplash's own same-site proxy (/u/<church>/api/proxy/<host><path>)
+with the placeholder "Bearer app-session"; the proxy attaches the anonymous
+guest token server-side, so this script never sees a real token. If the proxy
+ever goes away, it falls back to the older layout, where the page embedded a
+short-lived guest token (read at run time, kept in memory only, never written
+or printed). No audio is copied: enclosures point at the church's CDN files.
 Audio is used whenever it exists; an item with
 no audio falls back to its progressive MP4 video file (never HLS). Items with
 neither are skipped. Output is deterministic, so re-running with no
@@ -32,17 +36,30 @@ def get(url, headers=None):
         return r.read().decode()
 
 
-def guest_auth():
+PROXY = "https://subsplash.com/u/cornerstonebiblechur/api/proxy/"
+# Public placeholder the web shell itself sends; the proxy swaps in the guest token.
+PROXY_AUTH = {"Authorization": "Bearer app-session", "X-Requested-With": "XMLHttpRequest"}
+
+
+def api_access():
+    """Return (url_prefix, headers) for core.subsplash.com API calls."""
+    probe = (f"core.subsplash.com/media/v1/media-series/{SERIES_ID}")
+    try:
+        json.loads(get(PROXY + probe, PROXY_AUTH))["id"]
+        return PROXY + "core.subsplash.com", PROXY_AUTH
+    except Exception as e:
+        print(f"  web-shell proxy unavailable ({type(e).__name__}); trying legacy page token")
     m = re.search(r'\\"guest\\":\\"(eyJ[\w.-]+)', get(PAGE))
     if not m:
-        sys.exit("Could not find the page's guest token; Subsplash page layout changed.")
-    return {"Authorization": "Bearer " + m.group(1)}
+        sys.exit("Subsplash proxy failed and no guest token in page; Subsplash page layout changed.")
+    return "https://core.subsplash.com", {"Authorization": "Bearer " + m.group(1)}
 
 
-def fetch_items(auth):
+def fetch_items(access):
+    prefix, auth = access
     items, page = [], 1
     while True:
-        url = ("https://core.subsplash.com/media/v1/media-items"
+        url = (f"{prefix}/media/v1/media-items"
                f"?filter%5Bmedia_series%5D={SERIES_ID}&filter%5Bstatus%5D=published"
                f"&page%5Bsize%5D=100&page%5Bnumber%5D={page}&sort=position"
                "&include=audio,audio.audio-outputs,video,video.video-outputs")
@@ -136,7 +153,7 @@ def build(items):
 
 
 def main():
-    channel, eps, skipped = build(fetch_items(guest_auth()))
+    channel, eps, skipped = build(fetch_items(api_access()))
     old = OUT.read_text() if OUT.exists() else None
     if old != channel:
         OUT.write_text(channel)
