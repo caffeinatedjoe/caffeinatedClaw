@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                                                    <item>
+                                                        <item>
+      <title>How OpenAI's Performance Factory keeps ChatGPT fast</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</description>
+      <pubDate>Mon, 23 Nov 2026 14:26:05 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-23-how-openai-s-performance-factory-keeps-chatgpt-fast-525d1fe1</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-23-how-openai-s-performance-factory-keeps-chatgpt-fast.mp3" length="16223778" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>21:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Shipping 100+ PRs to production in a week</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://lethain.com/passing-100-prs-in-a-week/</description>
       <pubDate>Mon, 23 Nov 2026 14:18:08 +0000</pubDate>
