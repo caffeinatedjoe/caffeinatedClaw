@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                                                <item>
+                                                    <item>
+      <title>Shipping 100+ PRs to production in a week</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://lethain.com/passing-100-prs-in-a-week/</description>
+      <pubDate>Mon, 23 Nov 2026 14:18:08 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-23-shipping-100-prs-to-production-in-a-week-b2ad8cd3</guid>
+      <enclosure url="https://caffeinatedjoe.github.io/caffeinatedClaw/audio/2026-11-23-shipping-100-prs-to-production-in-a-week.mp3" length="17312892" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>23:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>External sandboxes for coding agents (Prime Radiant)</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://blog.primeradiant.com/external-sandboxes-for-coding-agents/</description>
       <pubDate>Wed, 18 Nov 2026 14:05:55 +0000</pubDate>
