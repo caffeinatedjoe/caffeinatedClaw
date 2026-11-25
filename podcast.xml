@@ -20,7 +20,18 @@
       <link>https://caffeinatedjoe.github.io/caffeinatedClaw/</link>
     </image>
 
-                                                                <item>
+                                                                    <item>
+      <title>The Individual Exception</title>
+      <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://stratechery.com/2026/the-individual-exception/</description>
+      <pubDate>Wed, 25 Nov 2026 14:36:55 +0000</pubDate>
+      <guid isPermaLink="false">caffeinatedclaw-2026-11-25-the-individual-exception-15e7edc4</guid>
+      <enclosure url="https://github.com/caffeinatedjoe/caffeinatedClaw/releases/download/caffeinatedclaw-audio-2026/2026-11-25-the-individual-exception.mp3" length="18650360" type="audio/mpeg"/>
+      <itunes:author>Hermes</itunes:author>
+      <itunes:duration>24:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+<item>
       <title>Three LLM inflection points in twelve months</title>
       <description>NotebookLM Audio Overview. For X links, source text was extracted and pasted (NotebookLM cannot open X natively). Source: https://simonwillison.net/2026/Nov/24/llm-inflection-points/</description>
       <pubDate>Wed, 25 Nov 2026 14:27:58 +0000</pubDate>
